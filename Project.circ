@@ -282,12 +282,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(410,370)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="8"/>
-      <a name="label" val="enS"/>
-      <a name="labelfont" val="SansSerif plain 10"/>
-    </comp>
     <comp lib="0" loc="(400,140)" name="Splitter">
       <a name="facing" val="north"/>
       <a name="incoming" val="8"/>
@@ -382,11 +376,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="text" val="Your score"/>
       <a name="font" val="SansSerif plain 16"/>
     </comp>
-    <comp lib="0" loc="(370,370)" name="Tunnel">
-      <a name="facing" val="south"/>
-      <a name="width" val="8"/>
-      <a name="label" val="myS"/>
-    </comp>
     <comp lib="6" loc="(803,33)" name="Text">
       <a name="text" val="Enemy score"/>
       <a name="font" val="SansSerif plain 16"/>
@@ -456,6 +445,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
     <comp lib="5" loc="(400,110)" name="Hex Digit Display"/>
+    <comp lib="0" loc="(410,370)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="8"/>
+      <a name="label" val="enS"/>
+      <a name="labelfont" val="SansSerif plain 10"/>
+    </comp>
     <comp lib="6" loc="(1180,325)" name="Text">
       <a name="text" val="0"/>
     </comp>
@@ -483,6 +478,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="north"/>
       <a name="label" val="EN"/>
       <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="0" loc="(370,370)" name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="width" val="8"/>
+      <a name="label" val="myS"/>
     </comp>
     <comp lib="6" loc="(1150,445)" name="Text">
       <a name="text" val="1"/>
@@ -774,11 +774,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="font" val="SansSerif bold 24"/>
     </comp>
     <comp loc="(430,1060)" name="ScoreCounter"/>
-    <comp lib="0" loc="(330,1080)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="EN"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
     <comp lib="0" loc="(1050,330)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
@@ -803,11 +798,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(710,280)" name="Tunnel">
       <a name="facing" val="south"/>
       <a name="label" val="vy"/>
-      <a name="labelfont" val="SansSerif plain 9"/>
-    </comp>
-    <comp lib="0" loc="(330,990)" name="Tunnel">
-      <a name="facing" val="north"/>
-      <a name="label" val="EN"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
     <comp lib="6" loc="(139,973)" name="Text">
@@ -964,6 +954,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="vy"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
+    <comp lib="0" loc="(320,990)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="EN"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
     <comp lib="0" loc="(180,120)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="Clock"/>
@@ -1051,6 +1046,11 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(380,230)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="1/2"/>
+      <a name="labelfont" val="SansSerif plain 9"/>
+    </comp>
+    <comp lib="0" loc="(320,1080)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="EN"/>
       <a name="labelfont" val="SansSerif plain 9"/>
     </comp>
     <comp lib="0" loc="(830,330)" name="Tunnel">
@@ -2979,9 +2979,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <appear>
       <rect fill="none" height="41" stroke="#000000" stroke-width="2" width="121" x="50" y="50"/>
       <text font-family="SansSerif" font-size="16" font-weight="bold" text-anchor="middle" x="109" y="77">Score Counter</text>
-      <circ-port height="8" pin="120,90" width="8" x="46" y="56"/>
+      <circ-port height="8" pin="120,90" width="8" x="46" y="66"/>
       <circ-port height="8" pin="120,130" width="8" x="56" y="86"/>
-      <circ-port height="10" pin="590,120" width="10" x="165" y="55"/>
+      <circ-port height="10" pin="590,120" width="10" x="165" y="65"/>
       <circ-anchor facing="east" height="6" width="6" x="167" y="67"/>
     </appear>
     <wire from="(290,110)" to="(290,120)"/>
